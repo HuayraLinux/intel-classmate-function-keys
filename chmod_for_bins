@@ -1,0 +1,7 @@
+#! /bin/bash
+#echo $1
+mv $1/usr/bin/fnkey/fnkey $1/usr/bin/fnkey/cmpcfk
+chmod 777 $1/usr/bin/fnkey/cmpcfk
+chmod 777 $1/usr/bin/fnkey/cmpcfk-control.sh
+chmod 777 $1/etc/X11/Xsession.d/93fk-login
+

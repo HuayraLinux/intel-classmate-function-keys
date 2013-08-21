@@ -1,0 +1,4 @@
+su
+make
+make install
+make uninstall

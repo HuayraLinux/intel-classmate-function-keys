@@ -1,0 +1,7 @@
+# This file maintains persistent names for CD/DVD reader and writer devices.
+# See udev(7) for syntax.
+#
+# Entries are automatically added by the 75-cd-aliases-generator.rules
+# file; however you are also free to add your own entries provided you
+# add the ENV{GENERATED}=1 flag to your own rules as well.
+KERNEL=="ipml_pm", RUN+="/bin/chmod 0777 /dev/ipml_pm"

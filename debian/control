@@ -1,0 +1,12 @@
+Source: intel-classmate-function-keys
+Section: x11
+Priority: extra
+Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
+Build-Depends: debhelper (>= 8), g++, libx11-dev, libxtst-dev, libgtk2.0-dev
+Standards-Version: 3.9.3
+
+Package: intel-classmate-function-keys
+Architecture: all
+Depends: ${misc:Depends},rfkill, xdotool
+Description: Intel Classmate function keys application.
+ This package is used for Debian Wheezy Beta3 on CMPC which is based on Intel Atom.
