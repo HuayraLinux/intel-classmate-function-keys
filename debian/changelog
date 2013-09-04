@@ -1,3 +1,9 @@
+intel-classmate-function-keys (1.0-2) testing; urgency=low
+
+  * Autostart de /usr/bin/fnkey/fnkey
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 04 Sep 2013 17:20:09 -0300
+
 intel-classmate-function-keys (1.0) testing; urgency=low
 
   * Initial release.
